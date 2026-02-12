@@ -392,7 +392,7 @@ def pressure_modifier(state, opponent):
     if rival:
         rivalry = p["rivalry"]["ratings"][opponent]
         mod -= rivalry / 25
-        mod += (p["dynamic"]["Composure"] if "Composure" in p["dynamic"] else 0) / 100
+        mod += p["attributes"]["Composure"] / 100
     mod += (p["team"]["Offensive Line"] - 65) / 8
     mod += (p["team"]["WR Group"] - 65) / 10
     return mod, rival
@@ -471,7 +471,7 @@ def play_game(state, opponent, playoffs=False):
     if is_rival:
         print("Rivalry intensity is high.")
 
-    situations = random.sample(KEY_SITUATIONS, random.randint(5, 8))
+    situations = random.choices(KEY_SITUATIONS, k=random.randint(5, 8))
     opp_points = 0
 
     for i, situation in enumerate(situations, 1):
