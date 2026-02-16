@@ -4,7 +4,8 @@ Saving Cleveland Browns :)
 --- 
 
 ### Forked from:    
-https://github.com/filiprinstad-hub/Saving-the-browns
+https://github.com/filiprinstad-hub/Saving-the-browns    
+(For the code see the 'codex...' branch).
 
 ### Found in a Reddit post here:    
 https://old.reddit.com/r/Browns/comments/1r40yx9/simple_game_about_the_browns/
