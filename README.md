@@ -15,4 +15,4 @@ https://old.reddit.com/r/Browns/comments/1r40yx9/simple_game_about_the_browns/
 * **Works on:**  Definitely an iPhone with Pythonista (how I first tried it) and probably most platforms that can run Python 3.
 
 ### Screenshot from the Reddit post:
-*(placeholder)*
+<img src="https://github.com/bazbt3/Saving-the-browns/blob/Saving-the-Browns/osoy89stsbjg1.jpeg" width="300" alt="Screenshot taken at the start of a game by the program author and posted to Reddit.">
